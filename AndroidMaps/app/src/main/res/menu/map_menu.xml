@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/compass"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Compass" />
+
+    <item
+        android:id="@+id/tilt"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Tilt Controls" />
+
+    <item
+        android:id="@+id/indoor"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Indoor Level Picker" />
+
+    <item
+        android:id="@+id/scroll"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Scroll Controls" />
+
+    <item
+        android:id="@+id/rotate"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Rotate Controls" />
+
+    <item
+        android:id="@+id/zoom"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Zoom Controls" />
+
+    <item
+        android:id="@+id/buildings"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Buildings" />
+
+    <item
+        android:id="@+id/boundaries"
+        app:showAsAction="never"
+        android:checkable="true"
+        app:actionViewClass="android.widget.CheckBox"
+        android:title="Boundaries" />
+
+    <item
+        android:id="@+id/animate"
+        app:showAsAction="never"
+        android:title="Animate Camera" />
+</menu>
